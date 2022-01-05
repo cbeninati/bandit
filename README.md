@@ -6,7 +6,9 @@ A peaceful way to get your Mac ready for work.
 
 ## Installed Programs
 
-### System Utilities
+<details>
+  <summary>System Utilities</summary>
+  
 - universal-ctags
 - git
 - openssl
@@ -25,8 +27,11 @@ A peaceful way to get your Mac ready for work.
 - libyaml
 - coreutils
 - yarn
+</details>
+  
+<details>
+  <summary>Mac Apps</summary>
 
-### Mac Apps
 - brave-browser
 - firefox
 - homebrew/cask-versions/firefox-developer-edition
@@ -38,3 +43,4 @@ A peaceful way to get your Mac ready for work.
 - zoom
 - docker
 - maccy
+</details>
