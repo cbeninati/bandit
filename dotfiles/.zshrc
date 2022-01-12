@@ -39,6 +39,9 @@ source ~/powerlevel10k/powerlevel10k.zsh-theme
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
+# Homebrew
+export PATH="/opt/homebrew/bin:$PATH"
+
 # fd - cd to selected directory
 fd() {
   local dir
