@@ -80,6 +80,7 @@ if type xcode-select >&- && xpath=$( xcode-select --print-path ) &&
 else
 	step "Installing Xcode…"
 	xcode-select --install
+	
 	print_success "Xcode installed!"
 fi
 
@@ -232,6 +233,8 @@ if [ -e $cwd/materials/dotfiles ]; then
 
 			# FZF completions
 			$(brew --prefix)/opt/fzf/install
+
+			sudo ln -s ~/.vimrc ~/.config/nvim/init.vim
 
 			print_success "Dotfiles complete.";
 	else
